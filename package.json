@@ -1,0 +1,29 @@
+{
+  "name": "base-xyz",
+  "version": "1.0.0",
+  "description": "Infraestrutura e automação da Base XYZ",
+  "main": "index.js",
+  "scripts": {
+    "test:api": "node scripts/check-posts.js",
+    "list:spaces": "node scripts/list-spaces-simple.js",
+    "list:posts": "node scripts/list-all-posts-detailed.js",
+    "publish": "node scripts/publish-content.js",
+    "sync": "node scripts/sync-circle.js",
+    "delete:incorrect": "node scripts/delete-incorrect-posts.js"
+  },
+  "keywords": [
+    "base-xyz",
+    "coins",
+    "cripto",
+    "comunidade",
+    "circle"
+  ],
+  "author": "Coins.xyz",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "axios": "^1.7.9"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

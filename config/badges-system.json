@@ -1,0 +1,153 @@
+{
+  "badges": {
+    "patentes_academia": [
+      {
+        "id": "estudante",
+        "name": "Estudante",
+        "description": "Primeira patente acadêmica - concluiu o onboarding básico",
+        "icon": "🎓",
+        "triggers": {
+          "auto": true,
+          "conditions": [
+            "completed_onboarding",
+            "posted_in_identificacao"
+          ]
+        }
+      },
+      {
+        "id": "academico",
+        "name": "Acadêmico",
+        "description": "Segunda patente - demonstrou consistência e contribuição intelectual",
+        "icon": "📚",
+        "triggers": {
+          "auto": false,
+          "conditions": [
+            "completed_3_medium_courses",
+            "published_1_original_insight",
+            "participated_conselho_academico",
+            "6_weeks_consistency"
+          ]
+        }
+      },
+      {
+        "id": "pesquisador",
+        "name": "Pesquisador",
+        "description": "Terceira patente - criou material curado e ajudou outros membros",
+        "icon": "🔬",
+        "triggers": {
+          "auto": false,
+          "conditions": [
+            "completed_3_advanced_courses",
+            "created_1_curated_material",
+            "helped_3_members",
+            "3_months_discipline"
+          ]
+        }
+      },
+      {
+        "id": "mentor",
+        "name": "Mentor",
+        "description": "Quarta patente - líder comunitário e criador de conteúdo educacional",
+        "icon": "🎖️",
+        "triggers": {
+          "auto": false,
+          "conditions": [
+            "mentored_5_members",
+            "created_1_course_track"
+          ]
+        }
+      }
+    ],
+    "patentes_operacionais": [
+      {
+        "id": "recruta",
+        "name": "Recruta",
+        "description": "Patente inicial - completou o credenciamento",
+        "icon": "🪖",
+        "triggers": {
+          "auto": true,
+          "conditions": [
+            "posted_in_identificacao"
+          ]
+        }
+      },
+      {
+        "id": "especialista",
+        "name": "Especialista",
+        "description": "Membro de uma Operação de Elite",
+        "icon": "⭐",
+        "triggers": {
+          "auto": false,
+          "conditions": [
+            "accepted_into_operation"
+          ]
+        }
+      }
+    ],
+    "badges_qualificacao": [
+      {
+        "id": "champion",
+        "name": "Champion",
+        "description": "Qualificado na Trilha Creator",
+        "icon": "🏆",
+        "triggers": {
+          "auto": false,
+          "conditions": [
+            "completed_campo_de_provas",
+            "consistent_desafio_garrafa"
+          ]
+        }
+      },
+      {
+        "id": "candidato_trainee",
+        "name": "Candidato a Trainee",
+        "description": "Qualificado na Trilha Builder",
+        "icon": "🎯",
+        "triggers": {
+          "auto": false,
+          "conditions": [
+            "completed_labs_challenge",
+            "consistent_desafio_garrafa"
+          ]
+        }
+      }
+    ],
+    "badges_ingles": [
+      {
+        "id": "ingles_a1",
+        "name": "Inglês A1",
+        "description": "Nível básico de inglês",
+        "icon": "🇬🇧",
+        "color": "#E0E0E0"
+      },
+      {
+        "id": "ingles_a2",
+        "name": "Inglês A2",
+        "description": "Nível pré-intermediário de inglês",
+        "icon": "🇬🇧",
+        "color": "#BDBDBD"
+      },
+      {
+        "id": "ingles_b1",
+        "name": "Inglês B1",
+        "description": "Nível intermediário de inglês",
+        "icon": "🇬🇧",
+        "color": "#9E9E9E"
+      },
+      {
+        "id": "ingles_b2",
+        "name": "Inglês B2",
+        "description": "Nível intermediário-avançado de inglês",
+        "icon": "🇬🇧",
+        "color": "#757575"
+      },
+      {
+        "id": "ingles_c1",
+        "name": "Inglês C1",
+        "description": "Nível avançado de inglês",
+        "icon": "🇬🇧",
+        "color": "#424242"
+      }
+    ]
+  }
+}

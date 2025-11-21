@@ -1,0 +1,165 @@
+{
+  "timestamp": "2025-11-20T22:40:15.214Z",
+  "summary": {
+    "total_spaces_before": 30,
+    "new_base_xyz": 6,
+    "moved_to_legacy": 3,
+    "deleted": 21
+  },
+  "new_spaces": [
+    {
+      "id": 2347720,
+      "name": "☕ Cantina da Base",
+      "slug": "cantina-da-base"
+    },
+    {
+      "id": 2347719,
+      "name": "📢 QG - Quartel General",
+      "slug": "qg-quartel-general"
+    },
+    {
+      "id": 2347718,
+      "name": "🪪 Identificação",
+      "slug": "identificacao"
+    },
+    {
+      "id": 2347717,
+      "name": "📜 Arquivo de Missão",
+      "slug": "arquivo-de-missao"
+    },
+    {
+      "id": 2347715,
+      "name": "📅 Eventos da Base",
+      "slug": "eventos-da-base"
+    },
+    {
+      "id": 2347714,
+      "name": "📚 Sala de Estudos",
+      "slug": "sala-de-estudos"
+    }
+  ],
+  "legacy_spaces": [
+    {
+      "id": 2316621,
+      "name": "Apresentações",
+      "slug": "apresentacoes"
+    },
+    {
+      "id": 2321958,
+      "name": "Desafio da Garrafa",
+      "slug": "desafio-da-garrafa"
+    },
+    {
+      "id": 2316617,
+      "name": "Boas-vindas da Coins.xyz",
+      "slug": "boas-vindas-da-coins-xyz"
+    }
+  ],
+  "deleted_spaces": [
+    {
+      "id": 2317767,
+      "name": "Galeria",
+      "slug": "galeria"
+    },
+    {
+      "id": 2317552,
+      "name": "Calendário Cultural",
+      "slug": "calendario-cultural"
+    },
+    {
+      "id": 2321912,
+      "name": "Documentação e Pesquisa",
+      "slug": "documentacao-e-pesquisa"
+    },
+    {
+      "id": 2321903,
+      "name": "Programas de Bounties",
+      "slug": "programas-de-bounties"
+    },
+    {
+      "id": 2321901,
+      "name": "Discussão técnica",
+      "slug": "discussao-tecnica"
+    },
+    {
+      "id": 2321897,
+      "name": "Roadmap e projetos",
+      "slug": "roadmap-e-projetos"
+    },
+    {
+      "id": 2321889,
+      "name": " Bem–vindo(a) ao Labs",
+      "slug": "bem-vindo-a-ao-labs"
+    },
+    {
+      "id": 2320144,
+      "name": "Evolução e Talentos",
+      "slug": "evolucao-e-talentos"
+    },
+    {
+      "id": 2320141,
+      "name": "Performance e Análise",
+      "slug": "performance-e-analise"
+    },
+    {
+      "id": 2320140,
+      "name": "Galeria de Conteúdos",
+      "slug": "galeria-de-conteudos"
+    },
+    {
+      "id": 2317992,
+      "name": "Criação e Colaboração",
+      "slug": "criacao-e-colaboracao"
+    },
+    {
+      "id": 2317862,
+      "name": "Diretrizes de Campanha",
+      "slug": "diretrizes-de-campanha"
+    },
+    {
+      "id": 2317779,
+      "name": "Ideias & Feedback",
+      "slug": "ideias-feedback"
+    },
+    {
+      "id": 2317771,
+      "name": "Parcerias Web3 BR",
+      "slug": "parcerias-web3-br"
+    },
+    {
+      "id": 2317765,
+      "name": "Meme Dump",
+      "slug": "meme-dump"
+    },
+    {
+      "id": 2316622,
+      "name": "FAQ – Perguntas mais frequentes",
+      "slug": "faq-perguntas-mais-frequentes"
+    },
+    {
+      "id": 2337360,
+      "name": "Básico de Cripto",
+      "slug": "basico-de-cripto"
+    },
+    {
+      "id": 2336581,
+      "name": "Análise OnChain",
+      "slug": "analise-onchain"
+    },
+    {
+      "id": 2321900,
+      "name": "Sprints e demos ao vivo",
+      "slug": "sprints-e-demos-ao-vivo"
+    },
+    {
+      "id": 2317774,
+      "name": "Cafezinho",
+      "slug": "cafezinho"
+    },
+    {
+      "id": 2316618,
+      "name": "Sobre a Coins.xyz",
+      "slug": "sobre-a-coins-xyz"
+    }
+  ]
+}

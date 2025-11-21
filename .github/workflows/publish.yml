@@ -1,0 +1,50 @@
+name: Publicar Conteúdo no Circle
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'content/**/*.md'
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      
+      - name: Instalar dependências
+        run: npm install
+      
+      - name: Detectar arquivos modificados
+        id: changed-files
+        run: |
+          echo "files=$(git diff --name-only HEAD^ HEAD | grep '^content/.*\.md$' | tr '\n' ' ')" >> $GITHUB_OUTPUT
+      
+      - name: Publicar conteúdos modificados
+        if: steps.changed-files.outputs.files != ''
+        env:
+          CIRCLE_API_TOKEN: ${{ secrets.CIRCLE_API_TOKEN }}
+          CIRCLE_COMMUNITY_ID: ${{ secrets.CIRCLE_COMMUNITY_ID }}
+        run: |
+          for file in ${{ steps.changed-files.outputs.files }}; do
+            echo "Publicando $file..."
+            node scripts/publish-content.js "$file"
+          done
+      
+      - name: Notificar sucesso
+        if: success()
+        run: echo "✅ Conteúdos publicados com sucesso!"
+      
+      - name: Notificar falha
+        if: failure()
+        run: echo "❌ Erro ao publicar conteúdos. Verifique os logs."

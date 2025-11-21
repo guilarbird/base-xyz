@@ -1,0 +1,163 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-11-20",
+  "description": "Arquitetura completa de espaços da Base XYZ",
+  
+  "space_groups": [
+    {
+      "key": "academia",
+      "name": "🎓 ACADEMIA",
+      "description": "Espaços de aprendizado, discussão e inteligência de mercado"
+    },
+    {
+      "key": "trilha_creator",
+      "name": "🎬 TRILHA CREATOR",
+      "description": "Espaços para criadores de conteúdo e produtores"
+    },
+    {
+      "key": "trilha_builder",
+      "name": "⚙️ TRILHA BUILDER",
+      "description": "Espaços para desenvolvedores e construtores técnicos"
+    },
+    {
+      "key": "geral",
+      "name": "🏠 GERAL",
+      "description": "Espaços gerais e de onboarding"
+    }
+  ],
+  
+  "spaces": [
+    {
+      "key": "arquivo_de_missao",
+      "name": "📜 Arquivo de Missão",
+      "slug": "arquivo-de-missao",
+      "space_type": "basic",
+      "space_group_key": "geral",
+      "is_private": false,
+      "is_hidden_from_non_members": false,
+      "emoji": "📜",
+      "description": "Manifesto e documentos fundacionais da Base XYZ",
+      "notes": "Post fixado com o Manifesto completo"
+    },
+    {
+      "key": "identificacao",
+      "name": "🪪 Identificação",
+      "slug": "identificacao",
+      "space_type": "basic",
+      "space_group_key": "geral",
+      "is_private": false,
+      "is_hidden_from_non_members": false,
+      "emoji": "🪪",
+      "description": "Espaço para novos recrutas se apresentarem",
+      "notes": "Todos os membros podem postar suas apresentações"
+    },
+    {
+      "key": "qg",
+      "name": "📢 QG - Quartel General",
+      "slug": "qg-quartel-general",
+      "space_type": "basic",
+      "space_group_key": "geral",
+      "is_private": false,
+      "is_hidden_from_non_members": false,
+      "emoji": "📢",
+      "description": "Anúncios oficiais e comunicados da liderança",
+      "notes": "Apenas moderadores podem postar"
+    },
+    {
+      "key": "cantina_da_base",
+      "name": "☕ Cantina da Base",
+      "slug": "cantina-da-base",
+      "space_type": "basic",
+      "space_group_key": "academia",
+      "is_private": false,
+      "is_hidden_from_non_members": false,
+      "emoji": "☕",
+      "description": "Discussões gerais, networking e conversas informais",
+      "notes": "Espaço livre para todos os membros"
+    },
+    {
+      "key": "sala_de_estudos",
+      "name": "📚 Sala de Estudos",
+      "slug": "sala-de-estudos",
+      "space_type": "course",
+      "space_group_key": "academia",
+      "is_private": false,
+      "is_hidden_from_non_members": false,
+      "emoji": "📚",
+      "description": "Cursos e materiais de treinamento da Base XYZ",
+      "notes": "Curso: Protocolos da Base (3 módulos)"
+    },
+    {
+      "key": "conselho_academico",
+      "name": "🎓 Conselho Acadêmico",
+      "slug": "conselho-academico",
+      "space_type": "basic",
+      "space_group_key": "academia",
+      "is_private": false,
+      "is_hidden_from_non_members": false,
+      "emoji": "🎓",
+      "description": "Dúvidas sobre os cursos e materiais de estudo",
+      "notes": "Q&A sobre conteúdos da Academia"
+    },
+    {
+      "key": "inteligencia_de_mercado",
+      "name": "📊 Inteligência de Mercado",
+      "slug": "inteligencia-de-mercado",
+      "space_type": "basic",
+      "space_group_key": "academia",
+      "is_private": false,
+      "is_hidden_from_non_members": false,
+      "emoji": "📊",
+      "description": "Análises, teses e pesquisas sobre cripto e mercados emergentes",
+      "notes": "Posts com 5+ likes viram conteúdo Evergreen"
+    },
+    {
+      "key": "desafio_da_garrafa",
+      "name": "🥤 Desafio da Garrafa",
+      "slug": "desafio-da-garrafa",
+      "space_type": "basic",
+      "space_group_key": "geral",
+      "is_private": false,
+      "is_hidden_from_non_members": false,
+      "emoji": "🥤",
+      "description": "Desafio semanal de criação de vídeos curtos",
+      "notes": "1 vídeo por semana, tema rotativo"
+    },
+    {
+      "key": "campo_de_provas",
+      "name": "⚔️ Campo de Provas",
+      "slug": "campo-de-provas",
+      "space_type": "basic",
+      "space_group_key": "trilha_creator",
+      "is_private": true,
+      "is_hidden_from_non_members": true,
+      "emoji": "⚔️",
+      "description": "Missões de qualificação para Creators",
+      "notes": "Acesso apenas para membros com trilha Creator"
+    },
+    {
+      "key": "labs",
+      "name": "🔬 Labs",
+      "slug": "labs",
+      "space_type": "basic",
+      "space_group_key": "trilha_builder",
+      "is_private": true,
+      "is_hidden_from_non_members": true,
+      "emoji": "🔬",
+      "description": "Desafios técnicos e simulações para Builders",
+      "notes": "Acesso apenas para membros com trilha Builder"
+    },
+    {
+      "key": "eventos_da_base",
+      "name": "📅 Eventos da Base",
+      "slug": "eventos-da-base",
+      "space_type": "event",
+      "space_group_key": "geral",
+      "is_private": false,
+      "is_hidden_from_non_members": false,
+      "emoji": "📅",
+      "description": "Calendário de eventos, lives e encontros",
+      "notes": "Espaço de tipo Event para gerenciar o calendário"
+    }
+  ]
+}
