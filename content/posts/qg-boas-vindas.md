@@ -1,3 +1,9 @@
+---
+title: "Bem-vindos ao QG - Quartel General!"
+space: "qg-quartel-general"
+pinned: true
+---
+
 ## 📢 Bem-vindos ao QG - Quartel General!
 
 Este é o coração da Base XYZ. Aqui, a liderança publica os anúncios mais importantes, as novas missões e as atualizações que impactam toda a comunidade.
